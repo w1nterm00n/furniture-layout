@@ -26,12 +26,14 @@ header.header{
         .header_navigation{
             display: flex;
             gap: 40px;
+            list-style-type: none;
                 li a{
                     @include jost();
                     font-size: 19px;
                     line-height: 30px;
                     letter-spacing: 0.4px;
                     color: #292F36;
+                    text-decoration: none;
                         &:hover{
                             color: rgba(205, 162, 116, 1);
                         }
@@ -558,12 +560,14 @@ header.header{
             display: flex;
             flex-direction: column;
             gap: 30px;
+            list-style-type: none;
                 .main{
                     font-size: 25px;
                     line-height: 38px;
                     letter-spacing: 0.22px;
                     color: #292F36;
                     @include notoserif();
+                    font-weight: 600;
                 }
                 li{
                     font-size: 22px;
@@ -577,13 +581,13 @@ header.header{
         .contact{
             display: flex;
             flex-direction: column;
-            gap: 30px;
                 p.contact{
                     font-size: 25px;
                     line-height: 38px;
                     @include notoserif();
                     letter-spacing: 0.22px;
                     color: #292F36;
+                    font-weight: 600;
                 }
                 p{
                     font-size: 22px;
@@ -609,6 +613,8 @@ footer{
             padding-bottom: 35px;
             width: fit-content;
             display: flex;
+            align-items: center;
+            justify-content: center;
             gap: 6px;
             margin: 0 auto;
                 p{

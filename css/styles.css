@@ -13,6 +13,7 @@ header.header .logo {
 header.header .header_navigation {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 header.header .header_navigation li a {
   font-family: "Jost";
@@ -22,6 +23,7 @@ header.header .header_navigation li a {
   line-height: 30px;
   letter-spacing: 0.4px;
   color: #292F36;
+  text-decoration: none;
 }
 header.header .header_navigation li a:hover {
   color: rgb(205, 162, 116);
@@ -589,6 +591,7 @@ header.header .header_navigation li a:hover {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  list-style-type: none;
 }
 .pre-footer .pages_column .main, .pre-footer .explore .main {
   font-size: 25px;
@@ -598,6 +601,7 @@ header.header .header_navigation li a:hover {
   font-family: "Noto Serif Display";
   font-style: normal;
   font-weight: 400;
+  font-weight: 600;
 }
 .pre-footer .pages_column li, .pre-footer .explore li {
   font-size: 22px;
@@ -611,7 +615,6 @@ header.header .header_navigation li a:hover {
 .pre-footer .contact {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 .pre-footer .contact p.contact {
   font-size: 25px;
@@ -621,6 +624,7 @@ header.header .header_navigation li a:hover {
   font-weight: 400;
   letter-spacing: 0.22px;
   color: #292F36;
+  font-weight: 600;
 }
 .pre-footer .contact p {
   font-size: 22px;
@@ -645,6 +649,8 @@ footer .footer_wrapper {
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
   margin: 0 auto;
 }
